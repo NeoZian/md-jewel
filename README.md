@@ -1,31 +1,37 @@
-# Md. Jewel — PhD-focused academic portfolio
+# Md. Jewel — PhD Research Portfolio
 
-Static academic portfolio redesigned for research/PhD outreach.
+A modern, research-first academic portfolio designed for prospective AI/ML PhD applications and research outreach.
 
-## What changed
+## Included
 
-- Research-first positioning for 2027 PhD applications
-- Updated research profile with LLMs, Transformers, RAG, multimodal AI, medical AI, and generative AI
-- Education and CGPA highlighted prominently
-- Research experience expanded to include manuscript writing, co-author coordination, submission/revision, and corresponding-author responsibilities
-- Publications updated with the accepted PeerJ Computer Science paper, 2025/2024 IJACSA papers, IEEE paper, under-review manuscripts, and FORGE-Vision
-- Added NexusMind AI and NexusForge AI
-- Reframed SEC tools as research/engineering evidence instead of generic portfolio projects
-- Updated technical/research skills
-- University email used as primary contact
-- Current CV included at `assets/docs/Md_Jewel_PhD_CV.pdf`
-- Responsive, accessible, dependency-light design with light/dark theme support
+- `index.html` — single-page portfolio
+- `assets/css/style.css` — responsive styling
+- `assets/js/main.js` — mobile navigation and footer year
+- `assets/images/md-jewel.jpg` — profile image
+- `assets/images/favicon.svg` — site icon
+- `assets/docs/Md_Jewel_PhD_CV.pdf` — downloadable CV
+
+## Design goals
+
+The site is intentionally content-first and understated for academic audiences. It prioritizes research profile, publications, manuscripts, technical depth, selected AI systems, professional experience, and PhD contact information rather than flashy portfolio effects.
 
 ## GitHub Pages deployment
 
-1. Replace the contents of your existing GitHub Pages repository with this folder's contents.
-2. Commit and push to the branch used by GitHub Pages (usually `main`).
-3. In **Settings → Pages**, confirm the site is deployed from the repository root.
-4. The site uses only relative paths, so it works from a project site such as `https://neozian.github.io/md-jewel/`.
+1. Replace the files in the root of your existing GitHub Pages repository with the contents of this folder.
+2. Commit and push the changes to GitHub.
+3. In **Settings → Pages**, ensure GitHub Pages is publishing from the correct branch/folder (typically `main` / root).
+4. Wait for GitHub Pages to rebuild and then hard-refresh the live site.
+
+No build step or package installation is required.
 
 ## Before publishing
 
-- Confirm the university email remains active: `jewel15-8071@diu.edu.bd`.
-- Replace `assets/docs/Md_Jewel_PhD_CV.pdf` whenever you update the CV.
-- If NexusMind AI or NexusForge AI later gets a public repository/demo, add a link inside its project card.
-- When the PeerJ article receives its final DOI/publication URL, add that link to the 2026 publication card.
+If your public URLs change, update these locations in `index.html`:
+
+- University email
+- Google Scholar
+- GitHub
+- LinkedIn
+- CV path
+
+The portfolio is fully responsive and uses only HTML, CSS, and a small amount of vanilla JavaScript.
