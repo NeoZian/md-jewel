@@ -1,4 +1,4 @@
-# Md. Jewel — PhD Research Portfolio
+# Md. Jewel — Research Portfolio
 
 neozian.github.io/md-jewel
 
